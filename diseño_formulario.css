@@ -1,0 +1,46 @@
+body{
+    background-color: #dbeafe;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formulario{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+.titulo{
+    color: #1e3a8a;
+    text-shadow: 2px 2px 3px gray;
+}
+
+.texto{
+    font-size: 30px;
+}
+
+.cuadro{
+    border-radius: 8px;
+    border: solid #60a5fa;
+    background-color: #eff6ff;
+    padding: 5px;
+}
+
+.lista{
+    border-radius: 8px;
+    border: solid #60a5fa;
+    background-color: #eff6ff;
+}
+
+.boton{
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.logo{
+    position: absolute;
+    top: 7px;
+    left: 20px;
+
+    width: 250px;
+}

@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="diseño_formulario.css">
+        <title>Formulario Universidad Catolica de Cordoba</title>
+    </head>
+    <body>
+        <script src="codigo_proyecto.js"></script>
+        <img src="logoucc.png" class="logo">   
+        <div class="formulario"
+        style="
+        width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+        text-align: center;
+        ">
+        <h2 class="titulo" style="font-size: 35px;">FORMULARIO DE INSCRIPCION</h2>
+
+        <form>
+            <p class="texto">Nombre: <input type="texto" name="nombre" placeholder="Indique su nombre" required style="font-size: 19px; width: 290px; height: 25px;"></p>
+            <p class="texto">Pais de Origen:   
+                <select name="marca" style="font-size: 19px; width: 290px; height: 25px;">
+                    <option>Argentina</option>
+                    <option>Brasil</option>
+                    <option>Paraguay</option>
+                    <option>Uruguay</option>
+                    <option>Venezuela</option>
+                    <option>Bolivia</option>
+                </select>
+            </p>
+            <p class="texto">DNI: <input type="text" id="dni" name="DNI" placeholder="Ingrese su DNI" required style="font-size: 19px; width: 290px; height: 25px;"></p>
+            <p class="texto">Fecha de Nacimiento: <input type="date" name="Fecha de nacimiento" value="2005-02-18" style="font-size: 19px; width: 290px; height: 25px;"></p>
+            <p class="texto">Email: <input type="email" id="email" name="Email" placeholder="Ingrese su email" required style="font-size: 19px; width: 290px; height: 25px;"></p>
+            <p class="texto">Edad: <input type="number" name="Edad" placeholder="Ingrese su edad" style="font-size: 19px; width: 290px; height: 25px;"></p>
+
+            <p class="texto">Carrera elegida:
+            <select class= "lista" name="Carrera" style="font-size: 19px; width: 290px; height: 25px;">
+                <option>Medicina</option>
+                <option>Ingeniería</option>
+                <option>Abogacía</option>
+                <option>Psicología</option>
+                <option>Ciencias economicas</option>
+                <option>Arquitectura</option>
+            </select>
+            </p>
+
+                <p><button class="boton" name="Boton" type="button" onclick="guardarDNI()" style="font-size: 25px; width: 180px; height: 45px;">ENVIAR</button></p>
+            
+
+            </p>
+    </body>
+    </html>
