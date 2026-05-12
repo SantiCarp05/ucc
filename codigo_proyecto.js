@@ -28,3 +28,6 @@ function iniciarSesion(){
         alert("Usuario o contraseña incorrectos");
     }
 }
+function atras(){
+    window.location.href="./index.html"
+}

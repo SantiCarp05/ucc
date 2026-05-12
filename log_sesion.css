@@ -63,4 +63,14 @@ button{
 
 button:hover{
     background: linear-gradient(to right, #1d4ed8, #3b82f6);
-}   
+}
+.botom{
+    width: 300px;
+    height: 65px;
+    font-size: 25px;
+    background: linear-gradient(to right, #2563eb, #60a5fa);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
